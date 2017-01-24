@@ -1,0 +1,145 @@
+<div class="header_slider clearfix">
+		<ul class="rslides clearfix">
+			<li><img src="img/slider_img3.jpg" alt="img3"><h3 class="slide_text slide1">Абсолютно <span class="red">новый</span> подход к продаже крутых вещей. <br>Бренды,стильные вещи,классные акссесуары - все здесь. <br>Делайте ставки и получайте вещи по выхогдной цене да еще и с Азартом.</h3></li>
+			
+			<li><img src="img/slider_img4.jpg" alt="img4"><h3 class="slide_text slide2">Хотите продать свою<span class="red">брендовую</span> или просто<span class="red"> крутую</span> вещицу? <br>Тогда вы там где нужно! <br>Предлагайте,но учтите что мы следим за крутостью ващих "Лотов".</h3></li>
+
+			<li><img src="img/slider_img2.jpg" alt="img2"><h3 class="slide_text slide3">Угадайте откуда у <span class="red">Чака Нориса</span> такой крутой пояс и ремни для УЗИ? <br>Все верно он воспользовался нашими услугами,и его ставку никто не осмелился перебить!</h3>
+			<img src="img/chuck.png" alt="Чак Одобряет" class="slide_hover-img">
+			</li>
+		</ul>
+		<a href="#" class="centered-btns_nav centered-btns1_nav prev">Previous</a>
+		<a href="#" class="centered-btns_nav centered-btns1_nav next">Next</a>
+	</div>
+
+	<div class="search">
+	
+		<form action="" method="post" class="search_form">
+			<input type="search" name="search-input" placeholder=" " class="search_form-input">
+			<input type="submit" name="submit" value="" class="search_submit">
+		<!-- 	<button type="button" class="search_submit">  -->
+		</form>
+
+	</div>
+	
+
+	<div class="content_main clearfix">
+		<div class="category">
+			<h2 class="category_text">Категории</h2>
+			<ul class="category_list">
+				<li class="category-item category_accesories"><a href="#">Аксесуары</a></li>
+				<li class="category-item category_kids"><a href="#">Для детей</a></li>
+				<li  class="category-item category_newYear"><a href="#">Новый год</a></li>
+				<li  class="category-item category_bags"><a href="#">Сумки</a></li>
+			</ul>
+		</div>
+
+		<div class="content_box">
+
+
+			<div class="content_loaded" id="content_loaded">
+			<div class="main_items">
+				<div class="content_loaded_element toggle_accssesories">
+					
+						<div class="content_loaded-img">
+							
+								<img src="img/accsesories.jpg" alt="accsesories">
+								<div class="content_loaded-text">
+									<h3>Аксесуары</h3>
+								</div>
+					
+						</div>
+						
+				</div>
+	
+				<div class="content_loaded_element toggle_kids">
+					
+						<div class="content_loaded-img">
+							<img src="img/forkids.jpg" alt="для детей">
+							<div class="content_loaded-text">
+								<h3>Для детей</h3>
+							</div>
+						</div>
+					
+				</div>
+				<div class="content_loaded_element toggle_newYear">
+					
+						<div class="content_loaded-img">
+							<img src="img/newyear.jpg" alt="Новый год">
+							<div class="content_loaded-text">
+								<h3>Новый год</h3>
+							</div>
+						</div>
+					
+				</div>
+				<div class="content_loaded_element toggle_bags">
+					
+						<div class="content_loaded-img">
+							<img src="img/bags.jpg" alt="Сумки">
+							<div class="content_loaded-text">
+								<h3>Сумки</h3>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+				<!-- content hiden -->
+			<div id="cont_load"></div>
+			
+		</div>
+
+	</div>
+
+
+
+	
+
+<!-- <script id="template1" type="text/x-handlebars-template">
+					
+
+		{{#each lot}}
+
+		<div class="selling_item {{class}}">
+			<div class="selling_img">
+				<img src="{{img}}" alt="{{h3}}">
+			</div>
+			<div class="selling_desc">
+
+				<h3 class="desc-h">{{h3}} </h3>
+					<p class="desc-p">{{p}}
+					</p>
+					<a href="{{a}}" class="item_buy">
+					Подробнее</a>
+
+			</div>
+			<div class="selling_price">
+				<h3 class="price-h">
+					Стартовая цена <span class="price">{{price}}</span> грн.
+				</h3>
+				<p class="price-date">
+					Дата окончания аукциона: 
+					<span class="red">{{date}}</span>
+				</p>
+			</div>
+		</div>
+		{{/each}}
+</script> -->
+
+
+<script> 
+function changeLocation(){
+	window.location.href = "http://localhost:9000/index.html";
+}
+if(document.querySelectorAll('.header').length === 0){
+	changeLocation();
+}
+
+$(document).ready(function(){
+
+
+});
+
+</script>
+<script src="js/main.js"></script>
+<!-- <script src="libs/jquery/jquery-1.11.1.min.js"></script> -->
+<script src="libs/ResponsiveSlides/responsiveslides.js"></script>

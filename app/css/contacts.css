@@ -1,0 +1,90 @@
+.example {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -webkit-linear-gradient(top, white, black);
+    background: -moz-linear-gradient(top, white, black);
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}.contacts{
+	width: 100%;
+}
+
+.contacts_img{
+	display: block;
+	width: 200px;
+	padding-top: 50px;
+	margin:0 auto;
+}
+
+.contacts_logo{
+	width:200px;
+}
+
+.contacts_h{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contacts_main{
+	padding-top: 30px;
+}
+	
+.contacts_main_item{
+	display: inline-block;
+	width:33%;
+	text-align: center;
+}
+
+
+.contacts_main_item a {
+	text-decoration: none;
+}
+.contacts_main_item i {
+	color: #fff;
+	font-size: 30px;
+	padding:40px;
+	-webkit-border-radius: 55px;
+	   -moz-border-radius: 55px;
+	        border-radius: 55px;
+	background-color: #3949AB;
+}
+.contacts_main_item .circle-icon{
+	font-size: 40px;
+	padding: 35px 45px 35px 45px;	
+}
+.contacts_main_item a:hover i{
+	-webkit-box-shadow: 2px -1px 25px 10px rgba(79,33,39,0.59);
+	-moz-box-shadow: 2px -1px 25px 10px rgba(79,33,39.59);
+	box-shadow: 2px -1px 25px 10px rgba(79,33,39,0.59);
+}
+
+.contacts_main_item h2{
+	color : #3F51B5;
+	text-transform: uppercase;
+}
+.contacts_main_item p {
+	color: #000;
+}
+
+.map{
+	padding-top: 30px;
+}
+
+/*Супер карта без фрейма =>>> При вёрстке нельзя использовать таблицы, фреймы.*/
+/*.map img{
+	display: block;
+	width: 100%;
+	margin:0 auto;
+}*/

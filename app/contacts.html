@@ -1,0 +1,76 @@
+
+
+<section class="content">
+
+	<div class="contacts">
+		<div class="contacts_img">
+			<a href="index.html"><img src="img/afon.png" alt="logo" class="contacts_logo"></a>
+		</div>
+
+		<div class="contacts_h">
+			<h2>Свяжитесь с нами</h2>
+		</div>
+	 
+		<div class="contacts_main">
+			<div class="contacts_main_item">
+				<a href="#">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h2>Email</h2>
+					<p>A-fon@dealwithit.com</p>
+				</a>
+			</div>
+			<div class="contacts_main_item">
+				<a href="#">
+					<i class="fa fa-mobile circle-icon" aria-hidden="true"></i>
+					<h2>Phone</h2>
+					<p>+380978477084</p>
+				</a>
+			</div>
+			<div class="contacts_main_item">
+				<a href="#">
+					<i class="fa fa-skype" aria-hidden="true"></i>
+					<h2>Skype</h2>
+					<p>A-fonDealsOnline</p>
+				</a>
+			</div>
+		</div>
+
+		<div class="map">
+				<div class="contacts_h">
+				 	<h2>Найдите Нас</h2>
+				</div> 
+		</div>
+			
+	</div>
+
+	<div id="map"></div>
+
+
+
+<!-- <script src="libs/jquery/jquery-1.11.1.min.js"></script> -->
+ 
+<script>
+  
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+	center: {lat: 49.986408, lng: 36.245954},
+	zoom: 16,
+	scrollwheel:false
+  });
+
+ 	var image = 'img/icons/molotok.png';
+  	var afonMarker = new google.maps.Marker({
+    position: {lat: 49.986408, lng: 36.245954},
+    map: map,
+    title: "A-fon-Auction",
+    icon: image
+  });
+}
+
+  </script>
+  
+
+<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXINmr7TbRCJtQQqHxjGU7aQSmbRA8PjM&callback=initMap">
+</script>
+<!-- <script src="libs/ResponsiveSlides/responsiveslides.js"></script> -->
+<!-- <script src="js/main.js"></script> -->

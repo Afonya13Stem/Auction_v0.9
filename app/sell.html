@@ -1,0 +1,45 @@
+
+<section class="sell ">
+	<div class="sell-h ">
+		<h2>Хотите выставить на аукцион свою крутую вещь?<br> Тогда вы там где нужно!</h2>
+	</div>
+
+	<div class="sell_form">
+		<form action="" method="post" class="sell_form-item">
+			<h3>Введите пожалуйста требуемые для выставление лота данные</h3>
+			<br>
+			<h4>Введите название вашего товара</h4>
+			<br>
+			<input type="text" required class="input-h"><span></span>
+			<br>
+			<h4>Введите цену с которой вы хотите начать торги.цена в грн(число).</h4>
+			<input type="text" required class="input-price" pattern="^[ 0-9]+$"><span></span>
+			<br>
+			<h4>Выберете категорию вашего товара</h4>
+			<br>
+			<select name="category" id="sellCategory">
+				<option value="accesories">Акссесуары</option>
+				<option value="kids">Для детей</option>
+				<option value="newYear">Новый Год</option>
+				<option value="bags">Сумки</option>
+			</select><span></span>
+			<h4>Введите описание вашего товара</h4>
+			<br>
+			<textarea name="desc-area" id="text-area" cols="2" rows="4" required></textarea><span></span>
+			<br>
+			<h4>Добавьте фото вашего товара(Это обязательно,у нас все очень серьезно и круто)</h4>
+			<input type="file" class="input-img" required accept="image/*,image/jpeg"><span></span>
+			<br>
+			<input type="submit" class="subm sellItem">
+		</form>
+
+		<div class="text-confirm hide">Обратите внимание!!В целях безопасности в течении 24 часов(конечно быстрее) мы рассмотрим вашу заявку на аукцион и добавим.Спасибо за доверие.</div>
+	</div>
+
+</section>
+
+
+
+	<!-- <script src="libs/jquery/jquery-1.11.1.min.js"></script> -->
+	<!-- <script src="libs/ResponsiveSlides/responsiveslides.js"></script> -->
+	<script src="js/main.js"></script>
